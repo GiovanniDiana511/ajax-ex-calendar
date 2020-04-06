@@ -13,4 +13,48 @@
 
 .festivo {
     color: red;
+    font-weight: bold;
+}
+
+.domenica {
+    background-color: lightgrey;
+    color: darkorange;
+    font-weight: bold;
+}
+
+#week {
+    padding-top: 30px;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#week > li {
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    width: calc(100% / 8);
+    height: 20px;
+    border: 1px solid darkorange;
+    float: left;
+    list-style: none;
+}
+
+#calendar {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+li {
+    padding-left: 3px;
+    padding-top: 3px;
+    width: calc(100% / 8);
+    height: 100px;
+    border: 1px solid darkorange;
+    float: left;
+    list-style: none;
+    margin: 0.5px 0.5px;
+    font-weight: bold;
 }

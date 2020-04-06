@@ -18,13 +18,22 @@
             </div>
         </div>
         <div class="main-calendar">
+            <div id="week">
+                <li>Lunedì</li>
+                <li>Martedì</li>
+                <li>Mercoledì</li>
+                <li>Giovedì</li>
+                <li>Venerdì</li>
+                <li>Sabato</li>
+                <li>Domenica</li>
+            </div>
             <div id="calendar">
 
             </div>
         </div>
 
         <script id="calendar-template" type="text/x-handlebars-template">
-            <li data-day="{{dataDay}}">
+            <li data-day="{{dataDay}}" data-week={{dataWeek}}>
                 {{day}}
             </li>
         </script>
