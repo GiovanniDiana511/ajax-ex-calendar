@@ -17,8 +17,8 @@
 }
 
 .domenica {
-    background-color: lightgrey;
-    color: darkorange;
+    background-color: #18737b;
+    color: #cdd741;
     font-weight: bold;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #week > li {
-    background-color: darkorange;
+    background-color: #cdd741;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -37,7 +37,7 @@
     padding-top: 3px;
     width: calc(100% / 8);
     height: 20px;
-    border: 1px solid darkorange;
+    border: 1px solid #cdd741;
     float: left;
     list-style: none;
 }
@@ -52,7 +52,7 @@ li {
     padding-top: 3px;
     width: calc(100% / 8);
     height: 100px;
-    border: 1px solid darkorange;
+    border: 1px solid #18737b;
     float: left;
     list-style: none;
     margin: 0.5px 0.5px;

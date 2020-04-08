@@ -72,13 +72,13 @@ $(document).ready(function () {
                 dataWeek: standardDay.weekday()
             }
 
-            if (giornoDaInserire.dataWeek == 6) {
-                $('#calendar li[data-week="' + giornoDaInserire.dataWeek + '"]').addClass('domenica');
-            }
-
             var templateFinale = templateGiorno(giornoDaInserire);
             $('#calendar').append(templateFinale);
             standardDay.add(1, 'day');
+
+            if (giornoDaInserire.dataWeek == 6) {
+                $('#calendar li[data-week="' + giornoDaInserire.dataWeek + '"]').addClass('domenica');
+            }
         }
     }
 
